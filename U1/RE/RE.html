@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte de Estancias</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <header class="encabezado">
+            <img src="444.jpeg" >
+            <h1 class="Titulo">Ares Santiago Trejo Rivas </h1>
+            <h4>Implementación hardware y software para la habilitación
+del sensor Hotcuyo UTM-30LX.</h4>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#abs">Resumen</a></li>
+                <li><a href="#intro">Introducción</a></li>
+                <li><a href="#marc">Marco teorico</a></li>
+                <li><a href="#obje">Objetivos</a></li>
+                <li><a href="#desa">Desarollo</a></li>
+                <li><a href="#res">Resualtados</a></li>
+                <li><a href="#conclu">Concluciónes</a></li>
+                <li><a href="#bibli">Bibliografia</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="abs">
+                <h3 text-alingn: left;>Resumen</h3>
+                <p>En este proyecto se encendió y obtuvieron algunos datos del láser lidar Hotkuyo UTM30LX, esto se pudo lograr con la investigación sobre este así como la creación de un
+“circuito de paso y regulación de voltaje” con la ayuda de un regulador de energía, un
+módulo regulador de voltaje ajustable y un circuito de paso de voltaje propiamente echa. <br>
+Con la instalación de ROS Melodic y dos librerías (Hokuyo AIST y Flexiport), estos son
+necesarios para poder leer los datos captados por el láser.</p>
+            </section>
+
+            <section id="intro">
+                <h3>Introducción</h3>
+                <p>En este proyecto se busca el usar el láser lidar Hotkuyo UTM-30LX Para la recolección de
+datos de un ambiente controlado para en un futuro implementarlo en un robot de
+asistencia personal llamado “nombre del robot”</p>
+            </section>
+            <div class="marobj">
+                <section id="marc">
+                    <h3>Marco teorico</h3>
+                    <p>Laser Hokuyo UTM30LX: <br>
+Hokuyo UTM30LX es un escáner láser 2D pequeño, preciso, y con alta velocidad de
+detección de obstáculos. <br>
+Regulador de energía(cargador universal para laptop): <br>
+Es el accesorio que nos permite alimentar de energía nuestra computadora portátil pero
+nos servirá como un dispositivo electrónico diseñado para mantener un nivel de tensión
+constante. <br>
+Placa reguladoa de voltaje Step-Down: <br>
+tiene como función entregar un voltaje de salida constante inferior al voltaje de entrada
+frente a variaciones del voltaje de entrada o de carga. <br> Los convertidores DC/DC son
+circuitos capaces de transformar un nivel de voltaje a otro de mayor o menor nivel.
+                </section>
+
+                <section id="obje">
+                    <h3>Justificación</h3>
+                    <p>Este proyecto tiene como objetivo recolectar datos para después con ellos poder crear un
+mapa 2D de un ambiente controlado. <br>
+Se planea en un futuro la implementación del láser en un robot de asistencia personal
+para que asi este pueda tener mayor facilidad de moviemineto dentro de una cas o una
+abitacion</p>    
+                        
+                </section>
+
+            </div>
+
+            <section id="desa">
+                <h3>Desarollo del proyecto</h3>
+                <p>El fin de este proyecto es el trabajar con el láser Hokuyo UTM30LX para así poder hacer un mapeo de un ambiente controlado y así en un futuro poder hacer un mapa 2D o 3D.   <br>
+El poder trabajar con el láser ser surge de la necesidad de la implementación de este mismo a un robot de asistencia personal en un futuro no muy legando para que este se pueda mover con mayor facilidad en un ambiente controlado. <br>
+Para poder trabajar con el láser lo primero que se hizo fue el encendido de este ya que al ser delicada en cuanto a los bruscos cambios repentinos de voltaje puede llegar a causar un corto cabe mencionar que es muy caro este componente ya que es de uso exclusivo en el campo de la robótica y su transportación desde China o España es tardada y aumenta su costo considerablemente se hizo una investigación a fondo durante una semana de la entrada de voltaje que podría recibir el láser, después de esta semana de investigación y ya sabiendo el cómo se podría regular el flujo de energía que recibiría el láser se compraron los materiales para así poder crear el “filtro” que conta de un cargador, dos tarjetas creadas para pasar energía, una recibe energía de el cargador y la otra está adaptada por medio de cableado para dirigir el flujo constante de voltaje hacia el está se adquirió una tarjeta reguladora de voltaje con esta se baja el voltaje recibido para tener un flujo de energía correcto y constante. <br>
+Ya teniendo encendido el láser se necesitó una maquina con un sistema operativo libre para en ella poder instalar ROS un software que es usado mundialmente en el campo de la robótica, dentro de este software se instalaron también dos libreros adicionales para poder leer los datos captados por el láser así como el entendimiento de estos datos por medio de una interfaz ,gracias a este conjunto de software se pudo lograr el hacer pruebas con resultados muy significantes ya que a través de una de las librerías se podía saber si cerca del láser se encontraban objetos, esto fue un gran avance ya que no existían antecedentes del uso de este componente en la empresa y cabe destacar que dentro de México existen muy pocas personas que han trabajado con el esto debido a la dificultad de entendimiento y de información sobre el hardware y software necesario para su funcionamiento.
+</p>
+            </section>
+
+            <section id="res">
+                <h3>Resultados</h3>
+                <p>Al término del tiempo para realizar las estancias 1,se pudieron llegar a muy buenos resultados  uno de ellos y el más importante el encendido del láser  por medio de un circuito de paso de corriente para regular el voltaje ya que el láser no puede tener cambios repentinos de este, este circuito está conformado por un adaptador de corriente alterna(cargador de laptop) ,una tarjeta  reguladora de energía, dos tarjetas creadas y adaptadas para recibir y pasar la corriente del cargador  a la tarjeta reguladora y la otra para pasar la corriente ya regulada hacia el láser. <br>Con esto se pudo avanzar a la segunda parte del proyecta que sería la recolección de datos a través del  láser esto se logró  con la ayuda de ROS (Sistema Operativo Robótico) en su versión meodic, en  este software se instalaron dos librerías para poder leer los datos que capta el láser, con esto se logo el poder saber si se encontraban objetos o no cerca del láser por no su distancia y posición.</p>
+            </section>
+            </section>
+
+            <section id="conclu">
+                <h3>Conclución</h3>
+                <p>Es lograron cumplir los objetivos los culés fueron el encender y recibir señales captadas desde el láser,   para el encendido del láser se necesitara distintos materiales no previstos esto le di una dificultad extra ya que sobre la marcha se estuvo comprando y viendo que material sería útil para usar en el proyecto, después de encenderlo se instaló un software llamados ROS en él se instalaron 2 librerías necesarias para poder leer los datos obtenidos con el láser y con ellos saber si tiene o no objetos a su alrededor. <br>
+Con la realización de este proyecto se deja un antecedente en la institución  ya que es la primera vez que se cuenta con este sensor. Con la habilitación de este laser se avanzó significativamente para en un futuro implementarlo en un robot de asistencia personal para maximizar su funcionamiento. <br>
+Gracias a que se usó un sistema operativo Linux la cual fue en su distribución Lubuntu en la versión 18.04 pude aprender a usar este sistema operativo en muchos de sus aspectos tanto para trabajo, como en la instalación de software, así como la búsqueda y creación de archivos desde su terminal, entre otras funciones del SO. Además pude a reafirmar mis conocimientos sobre electrónica al trabajar y crear el filtro de alimentación para el láser, además practique mis conocimientos de inglés ya que la investigar sobre el láser ya mencionado estuve entrando a foros, videos y páginas las cuales me brindaron información la cual en su gran mayoría fue en inglés.
+</p>
+            </section>
+
+        </main>
+
+        <footer id="bibli" >
+            <h3>BIBLIOGRAFIA</h3>
+            
+        </footer >
+
+
+        
+
+    </div>
+
+    
+</body>
+</html>

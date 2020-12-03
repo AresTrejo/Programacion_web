@@ -1,0 +1,22 @@
+body{
+	width: 1000px;
+	margin: auto;
+}
+
+.cont{
+	background-color: white;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 20px; 
+	margin: 50px;
+  	border: black 5px double;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+ 	box-shadow: 7px 7px 15px black; 
+  	
+  	
+}
+div{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}

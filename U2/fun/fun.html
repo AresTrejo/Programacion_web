@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="fun.js"></script>
+    <link rel="stylesheet" type="text/css" href="fun.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Calcular</title>
+</head>
+<body  >
+    <br><br>
+    
+    <div align="center" >
+        <div style = "float: right" >
+        
+            
+            <form  id="fom" class="cont"><br>
+            	<div class="form-group"><h3>Calcular factorial</h3>
+	                <div >
+	                    <label>Ingrese numero del factorial a conocer</label>
+	                    <input id="fac" type="number" class="form-control" placeholder="Numero entero: ejemplo: 5">
+	                </div>
+	                <div >
+	                     <label id="resf">El factorial del numero es: </label>
+	                </div>
+                </div>
+                <div class="form-group">
+                 <h3>Calcular potencia</h3>
+                <div >
+                    <label>Numero base </label>
+                    <input id="ba" type="number" class="form-control" placeholder="Numero entero: ejemplo: 5">
+                </div>
+                <div >
+                    <label>Exponencial</label>
+                    <input id="pot" type="number" class="form-control" placeholder="Numero entero: ejemplo: 5">
+                </div>
+                <div >
+                     <label id="resp">El resultado es:  </label>
+                </div>    </div>
+                <div>  <input type="button" onclick="cal()" class="btn btn-primary" value="Calcular">  </div>
+            </form>
+            
+           
+        </div>
+        
+    </div>
+   
+</body>
+</html>

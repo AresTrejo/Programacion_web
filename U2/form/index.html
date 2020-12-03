@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="UTF-8">
+   		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Orden de Venta</title>
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+		<script src="fdin.js"></script>
+	</head>
+	<body >
+	<div class="container">
+		<h2>Orden de venta</h2><br><br>
+		<div class="form-group">
+			Elegir producto: <br>
+			<br>
+			<select id="producto" name="producto" class="form-control">
+			<option>Productos</option>
+				<option value="1">Tacos</option>
+				<option value="2">Tortas</option>
+				<option value="3">Flautas</option>
+				<option value="4">Gorditas</option>
+				
+			</optgroup>
+
+			</select><br><br>
+	        Precio: <input id="precio" class="form-control" style="margin:20px"  type="number"><br><br>
+	        Cantidad: <input id="ca" class="form-control" style="margin:25px" type="text"><br><br>
+	        <button id="btn_guardar" class="btn btn-success" type="reset" onclick="guardar()">Guardar</button><br><br>
+		</div>
+
+        <table class="table table-bordered table-hover ">
+            <thead>
+                <tr>
+                	<th>ID</th>
+                    <th>Nombre</th>
+                    <th>Cantidad</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+            <tbody id="tab">
+
+            </tbody>
+            <tbody>
+            	<tr>
+                    <th  COLSPAN="3">iba</th>
+                    <th><label id="iva" >$</label></th>
+                </tr>
+                <tr>
+                    <th COLSPAN="3">Subtotal</th>
+                    <th><label id="sub">$</label></th>
+                </tr>
+                <tr>
+                    <th COLSPAN="3">total</th>
+                    <th><label id="total">$</label></th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+	</body>
+</html>

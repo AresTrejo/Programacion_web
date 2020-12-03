@@ -1,0 +1,37 @@
+#juego {
+    opacity: 0.3;
+    width: 600px;
+    height: 600px;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+}
+
+td {
+    width: 25%;
+    height: 25%;
+        text-align: center;
+
+    background-color: grey;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+body{
+	background-image: url("https://previews.123rf.com/images/annagolant/annagolant1711/annagolant171100466/90085096-patr%C3%B3n-geom%C3%A9trico-sin-costuras-dise%C3%B1o-creativo-inconformista-fondo-de-moda-con-tri%C3%A1ngulos-la-l%C3%ADnea-en-zigzag-par.jpg");
+}
+.body{
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input {
+    width: 90px;
+    height: 30px;
+}
+
+.centrar {
+    margin-left: 210px;
+}

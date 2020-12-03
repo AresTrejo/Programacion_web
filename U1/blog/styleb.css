@@ -1,0 +1,37 @@
+.sec{
+	background-color: grey;
+	border-style: dotted; 
+	background-color: #A29B99;
+}
+.d1{
+
+	background-color: #CBC4C2;
+	padding-left: 10px;
+	
+
+}
+.d2{
+	padding-left: 10px;
+}
+.imag{
+	float: right;
+
+}
+.img1{
+	float: left;
+}
+.au{
+	color: white;
+	margin-left: 100px;
+}
+}
+.autor{
+	background-color: #CC9585;
+}
+.ini{
+	color: white;
+}
+aside{
+        float: left;
+        width: 40%
+    }

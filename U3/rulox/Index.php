@@ -1,0 +1,110 @@
+<?php
+    require 'abrir_s.php';
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+    
+    <div class="container" >
+
+           <?php require 'menu.php'; ?> <?php require 'header.php'; ?>
+
+            <img src="images/art01.jpg"  id="imasec">
+
+            <div class="principal">
+
+                <main>
+              
+                    <section class="seccion">
+                        
+                        <h2>About the Event</h2>
+                        <p>The Roux Academy’s annual conference and exhibit is designed to foster a close-knit relationship amongst artists at various universities around the world. But sign up early, as this not-to-miss conference sells out quickly, and the waiting list is long. In addition, art students are encouraged to send in works from their school portfolios to be considered for hanging in the CAC exhibit halls, as well as to be selected as a Featured Artist..</p>
+                        
+                    </section>
+              
+                    <section class="artist">
+                    
+                        <h2>Featured Artists</h2>
+                        <p>The Roux Academy selects approximately 200 distinct pieces of contemporary art for display in their collective exhibit. Nine individuals are granted his or her own exhibit hall to display entire collections or themed pieces. Each Featured Artist has an opportunity to speak at the conference to share his or her vision, perspective, and techniques with conference attendees.</p>
+                        
+                        <div class="artistgroup_clearfix">
+                        
+                            <img src="images/artists/Barot_Bellingham_tn.jpg" alt="Barot Bellingham">
+                            <img src="images/artists/Constance_Smith_tn.jpg" alt="Constance Smith">
+                            <img src="images/artists/Hassum_Harrod_tn.jpg" alt="Hassum Harrod">
+                            <img src="images/artists/Hillary_Goldwynn_tn.jpg" alt="Hillary Goldwynn">
+                            <img src="images/artists/Jennifer_Jerome_tn.jpg" alt="Jennifer Jerome">
+                            <img src="images/artists/Jonathan_Ferrar_tn.jpg" alt="Jonathan Ferrar">
+                            <img src="images/artists/LaVonne_LaRue_tn.jpg" alt="LaVonne LaRue">
+                            <img src="images/artists/Riley_Rewington_tn.jpg" alt="Riley Rewington">
+                            <img src="images/artists/Xhou_Ta_tn.jpg" alt="Xhou Ta">
+                            
+                            <p class="clearfix"><a href="artists.html" class="enlace-gris">View Artist Info</a></p>
+                        </div>
+                        
+                    </section>
+                    
+                    <section class="thevenue">
+    
+                        <h2>The Venue</h2>
+                        <h3>Hotel Contempo</h3>
+                        <p><img src="images/hotel_contempo.jpg" alt="Hotel bedroom" class="float-izq">CAC speaking events and gallery exhibits take place inside Hotel Contempo, at 309 1st Avenue, in Downtown Seattle. Just a walk to the Space Needle, and a sampling of restaurants and shopping makes the venue a much sought-after location for conferences, year after year.</p>
+                        <p>Los eventos de conferencias del CAC y las exhibiciones 
+                            de la galería se llevan a cabo dentro del Hotel Contempo, 
+                            en 309 1st Avenue, en el centro de Seattle. Solo un paseo 
+                            hasta Space Needle y una muestra de restaurantes y tiendas 
+                            hacen del lugar un lugar muy solicitado para conferencias, año tras año.
+
+                            Hotel Contempo es el lugar perfecto para una reunión 
+                            de artistas modernos. Las salas de conferencias y los 
+                            pasillos no solo están decorados con impresionantes 
+                            esculturas y arte contemporáneo, sino que las habitaciones 
+                            individuales son tan únicas como los artistas de renombre 
+                            que recibieron el encargo de decorarlas. Desde la suite 
+                            Ross Monroe Purple llena de pintura de pared a pared hasta 
+                            la suite Tess Lessinger Sculpted Universe, con docenas de 
+                            esculturas originales, los visitantes seguramente estarán 
+                            intrigados y reconfortados durante su estadía en el Hotel Contempo.</p>
+    
+                    </section>    
+                    
+              
+                </main>
+
+                <aside >
+                    <section id="comingtoevent">
+                      <h2 class="highlight">Coming to the event?</h2>
+                      <h3 class="gris">Check out our mobile site</h3>
+                      <p>Our mobile site contains schedules, and exhibit/ artist details, accessible simply by scanning QR codes located all around the venue exhibit halls.</p>
+                      <p><img src="images/iphone.png" alt="iPhone" id="iphone"></p>
+                      <p><a class="enlace-gris" href="#">Roux Mobile</a></p>
+                    </section>
+                    <!-- Coming to event -->
+                    
+                    <article id="schedule">
+                      <h2 >Schedule</h2>
+                      <h3 class="gris">Monday</h3>
+                      <p>The first day of CAC events is kicked off under the theme of Art in Full Color. From a demonstration in graffiti art on a wall of the  Rousseau Room, to the exhibit of colorful glazed modern glassware in the Dover Hall.</p>
+                      <h3 class="gris">Tuesday</h3>
+                      <p>Water in Art is the theme for the second day, as art students gather at the Fountain of Intrigue to create ice sculptures, and art lecturers discuss the use of water as an art material, and water as an art subject.</p>
+                      <p><a class="enlace-gris" href="schedule/index.php">Full Schedule</a></p>
+                    </article>
+                    <!-- Schedule --> 
+                  </aside>
+
+            </div>
+
+          <?php require 'footer.php'; ?>
+ 
+            
+            </div>
+    
+        </body>
+</html>

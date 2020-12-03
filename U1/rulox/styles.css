@@ -1,0 +1,522 @@
+body {
+    background-image: url(images/background_buildings.png);
+    height: auto;
+    
+}
+
+.elementos{
+    list-style: none;
+    display: inline-block;
+}
+
+.nave{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-right: 16px;
+}
+
+.nave:hover{
+    background-image: linear-gradient(to left ,rgb(223,122,5),rgb(255,225,197));
+}
+
+
+
+
+.menu{
+    background-image: linear-gradient(to right ,rgb(223,122,5),rgb(255,225,197));
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+#imasec{
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.container{
+    margin-right: 90px;
+    margin-left: 55px;
+    width: 90%;
+    background-color: lightcyan;
+}
+
+.encabezado{
+    display: flex;
+    background-color: black;
+    color: whitesmoke;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+.logo{
+    width: 50%;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 30px;
+   
+}
+
+.letralogo{
+    
+
+}
+
+#enlace{
+    display: block;
+    
+}
+
+.TituloPrincipal{
+    margin: 35px;
+    text-align: justify;
+}
+
+#iphone{
+    width: 90%;
+}
+
+.principal{
+    display: flex;
+    background-color: white;
+    
+}
+
+main{
+    width: 50%;
+    margin: 25px;
+}
+
+aside{
+    width: 50%;
+    margin: 25px;
+    margin-top: 40px;
+}
+
+.principal section{
+    margin-top: 10px;
+}
+
+.artistgroup clearfix{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.artistgroup_clearfix img{
+    width: 30%;
+    border-radius: 10%;
+}
+
+.float-izq{
+    float: left;
+    margin-right: 15px;
+}
+
+
+.highlight{
+    color: rgb(178, 0, 0);
+}
+
+.gris{
+    color: rgb(119,119 ,141 );
+}
+
+
+.gris h3,h2 {
+    margin-top: 45px;
+}
+
+footer{
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    padding: 20px 0px ;
+}
+
+.text-fot{
+    width: 20%;
+    color: white;
+}
+
+.enlaces-fot{
+    width: 50%;
+    text-decoration: none;
+    color: white;
+}
+
+.enl-fot{
+    text-decoration: none;
+    color: white;
+
+}
+
+.enl-fot:hover{
+    color: rgb(102, 140, 202);
+}
+
+.enlace-gris{
+    font-size: 16px;
+    color: rgb(119,119 ,141 );
+    text-align: right;
+    display: block;
+}
+
+.enlace-gris:hover{
+    color: gray;
+}
+
+.ele-fot{
+    list-style: none;
+    display: inline;
+    color: white;
+    
+}
+
+
+/* STYLES ARTIST */
+.container-artist{
+    width: 90%;
+    margin-right: 45px;
+    margin-left: 45px;
+}
+
+.container-schedule{
+    width: 90%;
+    margin-right: 45px;
+    margin-left: 45px;
+}
+
+.container-venue{
+    width: 90%;
+    margin-right: 45px;
+    margin-left: 45px;
+}
+.container-register{
+    width: 90%;
+    margin-right: 45px;
+    margin-left: 45px;
+}
+.principal-artist{
+    display: flex;
+    margin-top: 0px;
+    background-color: snow;
+}
+.principal-register{
+    display: flex;
+    margin-top: 0px;
+    background-color: snow;
+}
+.About-the-Event-artist{
+
+}
+
+.images-artist clearfix{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.images-artist img{
+    width: 30%;
+    border-radius: 10%;
+}
+
+.main-artist{
+    margin-top: 15px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.secciones-artist{
+    display: flex;
+    justify-content: space-around;
+}
+
+.secciones-artist p{
+    width: 80%;
+    font-size: 14px;
+}
+
+.secciones-artist img{
+    width: 25%;
+    border-radius: 10%;
+    margin-left: 15px;
+}
+
+.Art{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.contenidoschedule{
+    
+    display: flex;
+    margin-top: 0px;
+    background-color: snow;
+}
+
+.contenido-venue{
+    display: flex;
+    margin-top: 0px;
+    background-color: snow;
+}
+
+.main-schedule{
+    margin-top: 15px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.principalschedule{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 25px;
+}
+
+.artshcedule{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+.ArtinUnexpectedPlaces{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 25px;
+}
+
+.ArtinFullBloom{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 25px;
+}
+
+.StillLife{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 25px;
+}
+
+.StillLife img{
+    border-radius: 25%;
+}
+
+.ArtinFullBloom img{
+    border-radius: 25%;
+}
+
+.ArtinUnexpectedPlaces img{
+    border-radius: 25%;
+}
+
+.sections-schedule{
+    margin-left: 15px;
+}
+
+.sections-schedule h4{
+    color: darkgrey;
+}
+
+.WaterinArt{
+    margin-left: 17px;
+}
+
+.WaterinArt h1{
+    font-size: 40px;
+}
+
+.artshcedule h1{
+    font-size: 40px;
+}
+
+.WaterinArtKickoffSession{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 25px;
+}
+
+.IceSculptures{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.DeepSeaWonders{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.DeepSeaWonders img{
+    border-radius: 25px;
+}
+
+.IceSculptures img{
+    border-radius: 25%;
+    height: 200px;
+}
+
+.WaterinArtKickoffSession img{
+    border-radius: 25%;
+}
+
+.TheVenue{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 25px;
+}
+.aside-venue{
+    margin-top: 25px;
+    margin-right: 45px;
+}
+.TheVenue p{
+    margin-left: 15px;
+}
+
+.PhillipsofBelltown img{
+    width: 30%;
+    height: 200px;
+}
+.TheOtterRenaissanceHotel img{
+    width: 30%;
+    height: 200px;
+}
+.TheRageHotel img{
+    width: 30%;
+    height: 200px;
+}
+.GwendolinesFancy img{
+    width: 30%;
+    height: 200px;
+}
+.PhillipsofBelltown{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 25px;
+}
+.TheOtterRenaissanceHotel{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 25px;
+}
+.TheRageHotel{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 25px;
+}
+.GwendolinesFancy{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 25px;
+}
+.sections-venue {
+    margin-top: 0px;
+    margin-left: 15px;
+}
+
+.register{
+    margin: 25px;
+}
+
+.Comment{
+     margin-left: 25px;
+    margin-top: 30px;
+    margin-left: 25px;
+    display: flex;
+    
+}
+.suscrib{
+    margin-left: 25px;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.selec{
+    margin-left: 25px;
+    margin-top: 30px;
+    margin-left: 25px;
+
+}
+
+.selec select{
+    margin-left: 120px;
+}
+
+.Comment h2{
+    margin-top: 0px;
+    margin-right: 20px;
+}
+
+.PersonalInfo{
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.PersonalInfo *{
+    margin-top: 10px;
+}
+
+.RequestTime{
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.RequestTime h2{
+    margin-left: 130px;
+}
+
+.RequestTime input{
+    margin-left: 140px;
+}
+
+.aside-resister{
+    margin-left: 25px;
+    margin-right: 60px;
+}

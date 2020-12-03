@@ -1,0 +1,47 @@
+body{
+	background-color: #6c7197 ;
+	width: 1000px;
+	margin: auto;
+}
+.tex{
+	 padding: 3px 10px;
+  border: black 5px double;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+ 	box-shadow: 7px 7px 15px black; 
+
+}
+.izquierda {
+  float: left;
+}
+
+.derecha {
+  float: right;
+}
+.cont{
+	background-color: gray;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px; 
+	margin: 25px auto;
+  	border: 1px solid #ccc;
+  	
+  	box-shadow: 7px 7px 15px #592A08; 
+}
+.titulos{
+	text-transform: uppercase;
+	text-align: center;
+
+}
+.sombra {
+ 
+  box-shadow: 7px 7px 15px #592A08; 
+}
+.sombra2{
+}
+.titulos2{
+	text-transform: capitalize;
+	text-align: left;
+	text-decoration: underline;
+	border-color: grey;
+}
